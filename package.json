@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-oauth2-testbed",
+  "version": "1.0.0",
+  "description": "NodeJs OAuth2 Testbed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ytong82/nodejs-oauth2-testbed.git"
+  },
+  "author": "David Tong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ytong82/nodejs-oauth2-testbed/issues"
+  },
+  "homepage": "https://github.com/ytong82/nodejs-oauth2-testbed#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "helmet": "^4.1.1",
+    "jwks-rsa": "^1.10.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^6.9.2"
+  }
+}
